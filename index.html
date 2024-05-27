@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery.min.js"></script>  
     <script src="js/jquery.datetimepicker.full.min.js"></script>
     <script src="js/script.js"></script>
@@ -72,7 +72,6 @@
         </div>
     </header>
 
-   
     <div class="slide">
         <div class="slidein">
             <img src="images/architecture-6646154_1920.jpg" alt="#">
@@ -94,77 +93,67 @@
             gimpo han river hotel
         </h1>
         <p class="slide-p">자연과 어우러진 최고의 쉼터, 라마다앙코르 김포한강호텔에서 편안한 휴식을 경험하던가!</p>
-        <!-- <a href="javascript:void(0)" onclick="slideView(-1)" class="arr arr-left"><img src="images/arrow_back.svg" alt="왼쪽" class="img"></a>
-        <a href="javascript:void(0)" onclick="slideView(1)" class="arr arr-right"><img src="images/arrow_forward.svg" alt="오른쪽" class="img"></a> -->
         <a href="#" class="arr arr-left"><img src="images/arrow_back.svg" alt="왼쪽" class="img"></a>
         <a href="#"  class="arr arr-right"><img src="images/arrow_forward.svg" alt="오른쪽" class="img"></a>
-    
 
-
-    <div class="datebox container">
-        <form id="myform" class="myform d-flex" method="post">
+        <div class="datebox container">
+            <form id="myform" class="myform d-flex" method="post">
             <div>
-            <input type="text" name="check-in" readonly id="check-in">
-            <i class="fa-regular fa-calendar-days"></i>
+                <input type="text" name="check-in" readonly id="check-in">
+                <i class="fa-regular fa-calendar-days"></i>
             </div>
             <div>
                 <input type="text" name="check-out" readonly id="check-out">
                 <i class="fa-regular fa-calendar-days"></i>
-                </div>
-                <div>
-                    <select name="rooms" id="rooms">
-                        <option value="">객실수</option>
-                        <option value="1">객실수1</option>
-                        <option value="2">객실수2</option>
-                        <option value="3">객실수3</option>
-                        <option value="4">객실수4</option>
-                        <option value="5">객실수5</option>
-                        <option value="6">직접입력</option>
-                    </select>
-
-                </div>
-                <div>
-                    <select name="adults" id="adults">
-                        <option value="">성인</option>
-                        <option value="1">성인1</option>
-                        <option value="2">성인2</option>
-                        <option value="3">성인3</option>
-                        <option value="4">성인4</option>
-                        <option value="5">성인5</option>
-                        <option value="6">직접입력</option>
-                    </select>
-
-                </div>
-                <div>
-                    <select name="childs" id="childs">
-                        <option value="">아동</option>
-                        <option value="1">아동1</option>
-                        <option value="2">아동2</option>
-                        <option value="3">아동3</option>
-                        <option value="4">아동4</option>
-                        <option value="5">아동5</option>
-                        <option value="6">직접입력</option>
-                    </select>
-
-                </div>
-                <div>
-                    <input type="text" placeholder="협력업체코드" name="cp_code" id="cp_code">
-                </div>
-                <div>
-                    <button type="button" class="btn">SEARCH</button>
-                </div>
+            </div>
+            <div>
+                <select name="rooms" id="rooms">
+                    <option value="">객실수</option>
+                    <option value="1">객실수1</option>
+                    <option value="2">객실수2</option>
+                    <option value="3">객실수3</option>
+                    <option value="4">객실수4</option>
+                    <option value="5">객실수5</option>
+                    <option value="6">직접입력</option>
+                </select>
+            </div>
+            <div>
+                <select name="adults" id="adults">
+                    <option value="">성인</option>
+                    <option value="1">성인1</option>
+                    <option value="2">성인2</option>
+                    <option value="3">성인3</option>
+                    <option value="4">성인4</option>
+                    <option value="5">성인5</option>
+                    <option value="6">직접입력</option>
+                </select>
+            </div>
+            <div>
+                <select name="childs" id="childs">
+                    <option value="">아동</option>
+                    <option value="1">아동1</option>
+                    <option value="2">아동2</option>
+                    <option value="3">아동3</option>
+                    <option value="4">아동4</option>
+                    <option value="5">아동5</option>
+                    <option value="6">직접입력</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" placeholder="협력업체코드" name="cp_code" id="cp_code">
+            </div>
+            <div>
+                <button type="button" class="btn">SEARCH</button>
+            </div>
         </form>
-       
     </div>
-
     </div>
     <section class="main02">
-
         <div class="container">
             <div class="row">
                 <div class="col-5 align-self">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1T6H0qGjL-E&mute=1&autoplay=1&loop=1" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ft70sAYrFyY?si=dXkwGX3hNgFtjMFX" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="col-7">
                     <h1>러머더앵코르 바이윈덤 김포한강호텔</h1>
@@ -176,9 +165,7 @@
                 </div>
             </div>
         </div>
-
     </section>
-
     <section class="main03">
         <div class="container">
             <div class="row">
@@ -196,20 +183,7 @@
                 </div>
             </div>
         </div>
-
     </section>
-<!-- <div class="col-6" prlg>
-                    <h2>NOTICE & NEWS</h2>
-                    <div class="sj">라마다앙코르 김포한강호텔의 새로운 소식을 만나보세요.</div>
-
-                    <div class="wrap-notice"></div>
-                </div>
-                <div class="col-6" prlg>
-                    <h2>INSTAGRAM</h2>
-                    <a href="https://www.instargam.com/ramadaencore_gimpohanriver/" class="account" target="_blank"></a>
-
-                    
-                </div> -->
     <section class="main04">  
         <div class="container">
             <div class="row">
@@ -238,10 +212,7 @@
                                 <div class="insta-image">
                                     <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
                                 </div>
-                                <div class="image-text">
-                                    <p>
-                                        어쩌고저쩌고
-                                    </p>
+                                <div class="image-text" id="image-text">
                                 </div>
                             </a>
                         </div>
@@ -266,30 +237,124 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
-                        <div class="insta-box"></div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insta-box">
+                            <a href="#">
+                                <div class="insta-image">
+                                    <img src="images/insta-01.jpg" alt="insta01" style="width: 100%; height: 100%;">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-    </section>]
+    </section>
     <footer>
         <div class="container">
             <div class="row">

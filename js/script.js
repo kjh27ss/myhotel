@@ -70,8 +70,17 @@ function showSlide(e) {
   $(".slidein:nth-child("+slideIndex+")").fadeIn(300);
 }
 
+// const intext = document.getElementById('image-text')
+// const inimg = document.getElementById('insta-image')
 
 
+// function onMouseOver(){
+//     intext.style.display = 'block'
+// }
+
+// function onMouseLeave(){
+//     intext.style.display = 'none'
+// }
 
 // this는 main-nav 하위에 subnav에서 찾아라
 
